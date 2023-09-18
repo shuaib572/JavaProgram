@@ -9,7 +9,7 @@ public class RemoveDuplicateWord2 {
 //		using List
 		System.out.println("Enter String");
 		String s=sc.nextLine();
-			String []words=s.split(" ");
+			String []words=s.split(" "); 
 			ArrayList<String> li=new ArrayList<String>();
 			for(String var:words)
 			{
