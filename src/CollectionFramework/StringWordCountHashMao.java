@@ -11,6 +11,8 @@ public class StringWordCountHashMao {
 		String s=sc.nextLine();
 		String []arr=s.split(" ");
 		HashMap<String,Integer> hs=new HashMap<>();
+	 
+		
 		for(int i=0;i<arr.length;i++)
 		{
 			if(hs.containsKey(arr[i]))
