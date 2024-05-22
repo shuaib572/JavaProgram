@@ -1,4 +1,4 @@
-package Java8Program;
+package Java8LembdaEx;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;

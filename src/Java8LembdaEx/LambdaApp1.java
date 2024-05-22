@@ -1,4 +1,4 @@
-package Java8Program;
+package Java8LembdaEx;
 
 
 interface Fun{
