@@ -1,4 +1,4 @@
-package Java8Lembda;
+package Java8Funtional;
 
 interface MyInterfaceOne
 {

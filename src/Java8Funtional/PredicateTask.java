@@ -1,8 +1,8 @@
-package Java8Lembda;
+package Java8Funtional;
 
 import java.util.function.Predicate;
 
-//
+//Declare Names in an array and print names which are staring with "A' usig lamba expression
 
 public class PredicateTask {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Java8Lembda;
+package Java8Funtional;
 
 interface MyAppIn{
 	public void m1();
