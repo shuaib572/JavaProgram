@@ -14,15 +14,17 @@ public class CountNonRepeatedCharacterStr {
 				if(s.charAt(i)==s.charAt(j)) //i=0;count=0 ,w
 				{
 					count ++; // 1
+					System.out.println(s.charAt(i));
 				}
 			}
 			arr[i]=count;
 			count=0;
+			
 		}
-		for(int x:arr)
-		{
-			System.out.println(x);
-		}
+//		for(int x:arr)
+//		{
+//			System.out.print(x);
+//		}
 		int c=0;
 		for(int i=0;i<arr.length;i++)
 		{
@@ -31,7 +33,7 @@ public class CountNonRepeatedCharacterStr {
 				c++;
 			}
 		}
-		System.out.println(c);
+		System.out.print(c);
 	}
 
 }
