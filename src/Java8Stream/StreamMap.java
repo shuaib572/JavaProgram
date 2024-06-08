@@ -8,11 +8,11 @@ import java.util.List;
 public class StreamMap {
 	public static void main(String[] args) {
 		List<String> list=Arrays.asList("japan","india","usa","nepal","uk");
-//		System.out.println("Old way");
-//		for(String s:list)
-//		{
-//			System.out.println(s.toUpperCase());
-//		}
+		/*System.out.println("Old way");
+		for(String s:list)
+		{
+			System.out.println(s.toUpperCase());
+		}*/
 		//System.out.println("Using Stream Map Method");
 		list.stream().map(p->p.toUpperCase()).forEach(n->System.out.println(n));
 		// print length of each elements
